@@ -1,0 +1,150 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.con{
+    background-color: #5e068a;
+    color: white;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont p{
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+u{
+    text-underline-offset: 6px;
+    text-decoration-color: blueviolet;
+}
+.c1{
+    border-bottom:2px solid transparent;
+}
+.c1:hover{
+    padding-bottom: 0px;
+    border-bottom: 2px solid blueviolet;
+}
+#c:hover{
+    color: blueviolet;
+}
+.d-block{
+    height: 500px;
+    
+}
+.text{
+    color: white;
+    margin-right: 300px;
+    text-align: left;
+  }
+  /* .f1{
+    font-size: 60px;
+    line-height: 64px;
+    
+  }  */
+   /* .content > h1{
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+padding-bottom: 20px;
+text-align: left;
+margin-right: 350px;
+   } */
+   /* .content > h1{
+    line-height:50px;
+    
+   } */
+   .fv{
+    font-size: 40px;
+    text-align: left;
+   } 
+
+   .but{
+    text-transform: uppercase;
+    padding: 20px 40px;
+    margin-top: 15px;
+    border-radius: 50px;
+    font-size: 16px;
+
+    
+   }
+   .vysali{
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    align-items: center;
+    font-size: 16px;
+    border: none;
+    
+   }
+   .fonts{
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1;
+   }
+  .box:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .buttonall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewall{
+    color: #5b0888;
+    padding: 20px 40px;
+    border-radius: 50px;
+    border-color: #a849d7;
+}
+
+.viewall:hover{
+    background-color: #5e068a;
+    color: white;
+}
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+   
+
+    @media(max-width:390px) {
+        .navimg{
+            width:50%;
+            height:10%;
+        }   
+    }
+  @media(max-width:329px){
+    .fonts{
+        font-size: 5px;
+    }
+  }
+  @media(max-width:770px){
+    .f1{
+        font-size: 20px;
+    }
+    .f2{
+        font-size: 10px;
+    }
+   .but{
+    padding: 10px 20px;
+    margin-top: 8px;
+    border-radius: 50px;
+    font-size: 10px;
+
+   }
+   
+  }
